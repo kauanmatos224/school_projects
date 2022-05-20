@@ -1,0 +1,13 @@
+Account (Outlook @ 000webhost) {
+	Mail: PatrickKauanOccultDay@outlook.com
+	Pass: S00Z00MeeArdey
+}
+
+Project (PatrickKauanPRM) {
+	Pass: d57k!Ke$6a)nidfRjktj
+}
+
+DB (BaseOfTheData (id18553529_baseofthedata)) {
+	User: NameOfTheUser (id18553529_nameoftheuser)
+	Pass: WordOfThePass_69
+}
