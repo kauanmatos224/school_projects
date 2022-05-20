@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">  
+            <form id="formulario"  method="POST" action="imp.php" >
+            <h3>Formulário de Contato</h3>
+            <h4>Entre em contato conosco ....</h4>
+          
+                <label for="nome">Nome:</label>
+                <input name="nome" placeholder="Nome" type="text" tabindex="1" required autofocus>
+                <label for="email">E-Mail:</label>
+                <input name="email" placeholder="E-Mail" type="email" tabindex="2" required>
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" placeholder="Telefone" type="tel" tabindex="3" required>
+                <label for="site">Website:</label>
+                <input name="site" placeholder="Endereço do seu site http://" type="url" tabindex="4" required>
+                <label for="nascimento">Data de Nascimento:</label>
+                <input name="nascimento" placeholder="Data de Nascimento" type="date" tabindex="5">
+                <label for="carro">Marca do Carro:</label>
+                <select name="carro" tabindex="6">
+                    <option value="volks">Volks</option>
+                    <option value="ford">Ford</option>
+                    <option selected value="fiat">Fiat</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <label for="novidades">Aceita receber novidades por:</label>
+                <select name="novidades" tabindex="7" multiple>
+                    <option value="sms">SMS</option>
+                    <option value="email">Email</option>
+                    <option value="facebook">Facebook</option>
+                </select>
+                <textarea name="observacoes" tabindex="8" placeholder="Observações...." tabindex="5" required></textarea>
+                <input  type="submit"   value="ENVIAR">
+            </form>
+        </div>
+    </body>
+</html> 
